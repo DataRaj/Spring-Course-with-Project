@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Basics/Spring-Basics.iml" filepath="$PROJECT_DIR$/Spring-Basics/Spring-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Course-with-Project.iml" filepath="$PROJECT_DIR$/.idea/Spring-Course-with-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reddit-clone-application/movie-preference-backend.iml" filepath="$PROJECT_DIR$/Reddit-clone-application/movie-preference-backend.iml" />
+    </modules>
+  </component>
+</project>
