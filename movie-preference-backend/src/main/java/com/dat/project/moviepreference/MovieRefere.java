@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MovieRefere {
 
     public static void main(String[] args) {
+
         SpringApplication.run(MovieRefere.class, args);
     }
     

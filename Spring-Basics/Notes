@@ -1,0 +1,15 @@
+Here to mostly every basic learning thing and source is getting from youtube, the name is Spring framework masterclass by Learn With Vinod.
+1. configuration and setup of the project using the dao product interface (because he has a
+ product named table in the database you can choose your own and implemented this with two
+ classes 1. dummyProductDao, 2. JdbcProductDao. implemented both with the different connection.
+2. created the another config folder for the configuration of all created beans which is config_1
+and we used both beans according to the priority
+3. connection of database actually author created a H2 database server but I used the postgres using a
+shortcut data source function. it took a good amount of time but by guide got connected it correctly.
+4. Used the lambok library for easy creation of getter setter and other settings using the decorator
+5. using autowiring but there is a catch also. after calling a same bean in main function twice which
+using singleton scope, its giving the error. it can cause a major production issue or a bug like if
+multiple clients working on the a single prototype then that prototype may not invoked in second time
+so for that we have to create a pool pool for pool request bdc (basic data source)
+so using this it will allow extra configuration over the file.
+6. create a connection over there and
